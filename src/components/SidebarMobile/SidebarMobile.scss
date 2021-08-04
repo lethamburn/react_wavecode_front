@@ -1,0 +1,55 @@
+.sidebar-mobile {
+    height: 100px;
+    background-color: #414752;
+    border-right: 1px #eceff433 solid;
+    font-size: 18px;
+    ul {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+        list-style: none;
+        li {
+            padding: 0px 5px;
+            font-size: 14px;
+        }
+    }
+    &__title {
+        background-color: #3b4352;
+        padding: 10px 5px;
+        color: #eceff4;
+        span {
+            margin-left: 5px;
+        }
+    }
+    &__list {
+        color: #eceff4;
+    }
+    &__folder {
+        margin-right: 10px;
+    }
+    .ul-list {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #a3be8c;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 765px) {
+    .sidebar {
+        width: 40%;
+        ul {
+            margin-left: 15px;
+        }
+        &__input {
+            font-size: 12px;
+        }
+    }
+}
+
+.ul-icon {
+    padding-right: 10px;
+    color: #bf616a;
+}

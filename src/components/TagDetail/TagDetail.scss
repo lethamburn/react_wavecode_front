@@ -1,0 +1,15 @@
+.info-playlists__container {
+    display: flex;
+    margin: 40px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 340px;
+    height: 340px;
+    background-color: #414752;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 10px;
+}

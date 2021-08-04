@@ -1,0 +1,50 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.register-form {
+  width: 100%;
+
+  &__fields {
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  &__label {
+    color: #bf616a;
+    font-size: 14px;
+    line-height: 2;
+
+    span {
+      color: #eceff4;
+      margin: 0px 5px;
+      font-size: 14px;
+    }
+  }
+  &__input {
+    border: none;
+    color: #a3be8c;
+    background-color: #414752;
+    line-height: 2;
+    border-radius: 0;
+  }
+  &__button {
+    border: none;
+    font-size: 16px;
+    line-height: 2;
+    color: #bf616a;
+    border-radius: 0;
+    text-align: left;
+    background: none;
+    font-size: 14px;
+
+    &:hover {
+      background-color: #5d6169;
+    }
+  }
+}

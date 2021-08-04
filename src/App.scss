@@ -1,0 +1,42 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+::placeholder {
+    color: #eceff460;
+    font-weight: 200;
+}
+
+.app {
+    .container {
+        display: flex;
+        flex-wrap: nowrap;
+        &__main {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+}
+
+.main-container {
+    background-color: #3b4352;
+    height: calc(100vh - 204px);
+    // overflow: scroll;
+    // position:relative;
+}
+
+.bg-image {
+    background-image: url('./images/logo-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-color: #3b4352;
+    height: calc(100vh - 204px);
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: #81A1C1;
+}

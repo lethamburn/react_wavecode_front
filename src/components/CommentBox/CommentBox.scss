@@ -1,0 +1,22 @@
+.commentbox {
+    margin: 10px 0px;
+    color: white;
+    height: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    &__header {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 300;
+        color: #eceff4;
+    }
+    &__container {
+        background: #414752;
+        padding: 10px 20px;
+        margin: 6px 0px;
+    }
+    &__title {
+        color: #bf616a;
+    }
+}

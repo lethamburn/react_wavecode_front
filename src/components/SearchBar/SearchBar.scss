@@ -1,0 +1,36 @@
+.search-bar{
+    margin: 20px 0px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+   
+      &__input {
+        font-size: 18px;
+        border: none;
+        font-family: monospace;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: none;
+        border-bottom: 1px solid #eceff441;
+        color: white;
+        width: 80%;
+        border-radius: 0;
+        outline: none;
+      }
+
+      &__button{
+          background: none;
+          border: none;
+          cursor: pointer;
+      }
+      &__icon {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #eceff4;
+        margin-left: 10px;
+      }
+
+}
+

@@ -1,0 +1,80 @@
+.footer {
+    height: 150px;
+    background-color: #3b4252;
+    border-top: 1px #eceff433 solid;
+    font-size: 12px;
+    z-index: 2;
+    a {
+        text-decoration: none;
+        color: #bf616a;
+    }
+    a:hover {
+        color: #c9b1b3;
+    }
+    .container-copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright {
+        text-align: center;
+        margin: 0 auto;
+        color: #eceff4;
+        .command {
+            width: 0%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: write-command 5s both;
+            &:before {
+                content: "$ ";
+                color: #22da26;
+            }
+        }
+    }
+}
+
+.gitHub {
+    color: #81a1c1;
+}
+
+.master {
+    color: #a3be8c;
+}
+
+.cursor {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.terminal {
+    color: white;
+    margin-left: 20px;
+}
+
+.typing {
+    width: fit-content;
+    margin-left: 20px;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid rgba(255, 255, 255, 0.308);
+    font-family: monospace;
+    font-size: 12px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

@@ -1,0 +1,30 @@
+.info-about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 15px;
+  text-align: left;
+  color: #81a1c1;
+  margin-left: 10px;
+  margin-top: 10px;
+
+  &__div {
+    margin-bottom: 10px;
+  }
+  &__span1 {
+    color: #bf616a;
+  }
+  &__span2 {
+    color: #eceff4;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    li {
+      color: #a3be8c;
+    }
+    span {
+      color: #eceff4;
+    }
+  }
+}

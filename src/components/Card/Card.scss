@@ -1,0 +1,27 @@
+.card {
+  width: 340px;
+  height: 340px;
+  background-color: #414752;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 10px 10px;
+  position: relative;
+}
+
+.load-div {
+  height: 100%;
+  background-color: #3b4352;
+  position: absolute;
+  z-index: 0;
+}
+
+.load-div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load-div > div > svg {
+  width: auto !important;
+  height: auto !important;
+}

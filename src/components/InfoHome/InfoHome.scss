@@ -1,0 +1,18 @@
+.info-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #88C0D0;
+    height: 100%;
+    img {
+        width: 400px;
+        opacity: 0.3;
+    }
+    span {
+        margin-left: 5px;
+        padding: 5px 8px;
+        background-color: #414752;
+        border-radius: 5px;
+    }
+}
